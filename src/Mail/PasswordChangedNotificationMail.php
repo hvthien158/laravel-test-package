@@ -37,7 +37,7 @@ class PasswordChangedNotificationMail extends Mailable
     public function content(): Content
     {
         return new Content(
-            markdown: 'laravel-test-package::emails.password-changed-notification',
+            markdown: 'emails.password-changed-notification',
         );
     }
 

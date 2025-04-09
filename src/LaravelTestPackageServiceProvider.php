@@ -4,7 +4,6 @@ namespace Thien\LaravelTestPackage;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Thien\LaravelTestPackage\Commands\LaravelTestPackageCommand;
 
 class LaravelTestPackageServiceProvider extends PackageServiceProvider
 {
